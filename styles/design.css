@@ -54,3 +54,34 @@ nav{
     text-align:center;
     margin-bottom: 37px;
 }
+/*Main*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* Action Part Design*/
+.action{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin-top: 116px; 
+}
+.colLeft{
+    margin-top: 63.5px;
+    margin-bottom: 63.5px;
+}
+
+.actionTitle{
+    font-weight: bolder;
+    font-size:  42px;
+    margin-bottom: 23px;
+}
+.actionDescription{
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 23px;
+}
+.action img{
+    border-radius: 48px;
+}
+
