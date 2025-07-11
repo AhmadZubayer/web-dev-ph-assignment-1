@@ -215,41 +215,49 @@ form :placeholder-shown{
     font-size: 20px;
 }
 .formBtn{
-    width: 110%;
+    width: 112%;
 }
-/*footer starts here*/
+/*footer starts here-------------------------------------------------------*/
 footer{
     background-color: white;
-    text-align: justify;
+    align-items: center;
+    width: 100%;
 }
 .footerDiv{
-    padding: 104px 575px 104px 575px;
+    padding: 100px 455px 100px 455px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     align-items: center;
 }
 .footerTitle{
     color: #4E47FF;
+    text-align: center;
     font-size: 100px;
     font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 0px;
 }
 .footerText{
+    width: 70%;
     font-size: 18px;
     font-weight: normal;
     color: #8987A1;
     text-align: center;
+    margin-top: 8px;
+    margin-bottom: 20px;
 }
 
-nav ul{
+footer nav ul{
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 48px; 
 }
-nav ul li{
+footer nav ul li{
     list-style: none;
-    margin-right: 51px;
 }
-nav li a{
+footer nav li a{
     text-decoration: none;
 }
 
