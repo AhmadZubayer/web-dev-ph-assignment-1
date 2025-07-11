@@ -276,6 +276,24 @@ button:hover {
 
 
 /*Ready To Focus Part Design----------------------------------------*/
+.readyToFocusContainer{
+    margin-top: 116px;
+    display: block;
+    justify-items: center;
+    background-color: white;
+    border-radius: 14px;
+    padding: 71px;
+}
+.focusSubtitle{
+    color: #72737f;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.focusImg{
+    margin-top: 20px;
+    border-radius: 48px;
+}
 
 
 
