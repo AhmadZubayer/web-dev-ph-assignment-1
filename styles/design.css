@@ -26,7 +26,6 @@ header{
 .Title2{
     font-size: 42px;
     font-weight: bold;
-
 }
 .btn1{
     background-color: #4E47FF;
@@ -50,6 +49,7 @@ nav{
     color: #4E47FF;  
     font-weight:900;
     font-size: 34px; 
+    text-decoration: none;
 }
 /*Banner Part Design*/
 .banner{
@@ -251,6 +251,7 @@ footer{
     font-weight: bold;
     margin-top: 4px;
     margin-bottom: 0px;
+    text-decoration: none;
 }
 .footerText{
     width: 70%;
