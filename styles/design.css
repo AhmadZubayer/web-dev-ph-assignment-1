@@ -22,6 +22,23 @@ header{
     width: 100%;
 }
 
+/*Shared Items-----------------------*/
+.Title2{
+    font-size: 42px;
+    font-weight: bold;
+
+}
+.btn1{
+    background-color: #4E47FF;
+    color: white ;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+}
+
 /*Navigation Bar Design*/
 nav{
    display: flex; 
@@ -34,22 +51,14 @@ nav{
     font-weight:900;
     font-size: 34px; 
 }
-.btn1{
-    background-color: #4E47FF;
-    color: white ;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    padding: 12px 36px;
-    border: none;
-    border-radius: 10px;
-}
+/*Banner Part Design*/
 .banner{
     display: block;
     width: 905px;
     height: 237px;
     justify-items: center;
     margin: 0 auto;
+    padding: 152px 267.5px 152px 267.5px ;
 }
 .bannerTitle{
     font-size: 65px;
@@ -122,11 +131,7 @@ main{
     justify-items: center;
     margin-bottom: 50px;
 }
-.feedbackTitle{
-    font-size: 42px;
-    font-weight: bold;
 
-}
 .feedbackCardContainer{
     display: flex;
     gap: 20px;
@@ -260,6 +265,18 @@ footer nav ul li{
 footer nav li a{
     text-decoration: none;
 }
+
+/*Button Hover Animation*/
+button:hover {
+    color: black;
+    background-color: #f1c30d; 
+    transform: scale(1.1);  
+    box-shadow: 0 4px 8px black; 
+}
+
+
+/*Ready To Focus Part Design----------------------------------------*/
+
 
 
 
