@@ -37,7 +37,7 @@ nav{
 .btn1{
     background-color: #4E47FF;
     color: white ;
-    font-size: 16;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
     padding: 12px 36px;
@@ -175,32 +175,32 @@ main{
 }
 
 /*Form Design*/
-.form {
+.formContainer{
     height: 632px;
     margin-top: 116px;
     display: flex;
-    justify-content: space-between;
     gap: 150px;
     padding-top: 71px;
     padding-bottom: 71px;
+    width: 95%;
 }
-
 .formTitle{
     font-size: 97px;
     font-weight: bold;
-    width: 100%;
-    
 }
-.formCol{
+.formInputCol{
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
-.formCol label{
+.formInput label{
     font-size: 18px;
     font-weight: normal;
     /*margin-bottom: 15px ;*/
 }
-.formCol input[type="text"], .formCol input[type="email"], .formCol textarea{
+.formInputCol input[type="text"], 
+.formInput input[type="email"], 
+.formInput textarea{
     border: 1px solid #d6dded;
     border-radius: 10px;
     background-color: white;
@@ -208,15 +208,50 @@ main{
     padding: 10px 20px;
     margin-top: 10px;
     margin-bottom: 20px;
+    height: 50px;
+    width: 100%;
 }
 form :placeholder-shown{
     font-size: 20px;
 }
-.formCol button{
-    width: 100%;
+.formBtn{
+    width: 110%;
 }
 /*footer starts here*/
+footer{
+    background-color: white;
+    text-align: justify;
+}
+.footerDiv{
+    padding: 104px 575px 104px 575px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.footerTitle{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: bold;
+}
+.footerText{
+    font-size: 18px;
+    font-weight: normal;
+    color: #8987A1;
+    text-align: center;
+}
 
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+}
 
 
 
